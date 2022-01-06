@@ -1,0 +1,94 @@
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+.heading {
+    line-height: 1.5;
+    text-align: center;
+    font-size: 50px;
+}
+
+
+
+
+.container {
+  margin: auto;
+  width: 296.5px;
+  height: 400px;
+}
+
+.result {
+    border: solid black;
+    height: 70px;
+    padding: 0 10px;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    text-align: end;
+}
+
+
+.row-1 {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+ button {
+    padding: 31px;
+    font-size: 20px;
+    width: 24.5%;
+    border: solid 1px black;
+    
+    
+}
+
+button:last-child {
+    background: orange;
+}
+
+button:hover {
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+.clear-btn {
+    width: 150px;
+    font-size: 20px;
+    justify-content: space-evenly;
+}
+
+.row-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.row-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.row-4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.row-5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.zero-btn {
+    width: 222px;
+}
+
+
+
